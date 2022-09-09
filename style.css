@@ -1,0 +1,47 @@
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+}
+.loanForm{
+    border: 2px solid black;
+    padding: 20px;
+    background: #e74c3c;
+}
+h2{
+    font-size: 25px;
+    text-decoration: underline rgb(4, 0, 255) solid;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    font-size: 20px;
+}
+input{
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+}
+button{
+    padding: 10px;
+    justify-self: center;
+    border-radius: 50px;
+    font-size: 15px;
+    background: #3498db;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
